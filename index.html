@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Student Registration System</h1>
+        <p>This system enables users to efficiently manage student records with ease</p><br>
+    </header>
+
+    <section class="form-section">
+        <h2>Register as Student</h2>
+        <form id="studentForm">
+            <input type="text" id="studentName" placeholder="Student Name" required>
+            <input type="number" id="studentId" placeholder="Student ID" required>
+            <input type="email" id="studentEmail" placeholder="Student Email" required>
+            <input type="number" id="studentContactNo" placeholder="Student Contact No" required>
+            <br>
+            <button type="submit" id="btn">Save & Submit</button>
+
+        </form>
+
+    </section>
+
+    <section class="display-section">
+        <h2>Registered Students</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>Contact No</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="studentList"></tbody>
+        </table>
+    </section>
+
+    <footer>
+         <p>&copy; 2025 Student Registration System. All rights reserved.</p>
+    </footer>
+    
+
+</body>
+</html>
