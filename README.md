@@ -1,6 +1,6 @@
 #Student Registration System
 
-A simple web-based **Student Registration System** that allows users to add, edit, and delete student records. This system uses **HTML, CSS, and JavaScript** with **Local Storage** to save student data.
+A simple **Student Registration System** that allows users to add, edit, and delete student records. This system uses **HTML, CSS, and JavaScript** with **Local Storage** to save student data.
 
 #Features
 Add Student – Users can enter student details and save them.  
